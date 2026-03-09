@@ -1,0 +1,38 @@
+title: My Blog
+description: Thoughts, ideas, and everything in between.
+url: "https://yourusername.github.io"
+baseurl: ""
+
+author:
+  name: Your Name
+  email: you@example.com
+
+theme: minima
+
+minima:
+  skin: classic  # options: classic, dark, solarized, solarized-dark
+
+# Social links (shown in footer)
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/yourusername" }
+    - { platform: twitter, user_url: "https://twitter.com/yourusername" }
+
+plugins:
+  - jekyll-feed       # Generates /feed.xml RSS
+  - jekyll-sitemap    # Generates /sitemap.xml
+  - jekyll-seo-tag    # Adds SEO meta tags
+
+# Pagination (optional)
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Permalink style for posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
