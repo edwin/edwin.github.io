@@ -3,14 +3,13 @@ description: mount /dev/brain && tail -f /var/log/idea >> /var/www/
 url: "https://edwin.github.io"
 baseurl: ""
 
-author:
-  name: Muhammad Edwin
-  email: edwinkun at gmail dot com
+author: "Muhammad Edwin"
 
 theme: minima
 
 minima:
   skin: classic  # options: classic, dark, solarized, solarized-dark
+  date_format: "%d-%m-%Y"
 
 # Social links (shown in footer)
 minima:
