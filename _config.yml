@@ -1,11 +1,11 @@
-title: My Blog
-description: Thoughts, ideas, and everything in between.
-url: "https://yourusername.github.io"
+title: Edwin's Journey
+description: mount /dev/brain && tail -f /var/log/idea >> /var/www/
+url: "https://edwin.github.io"
 baseurl: ""
 
 author:
-  name: Your Name
-  email: you@example.com
+  name: Muhammad Edwin
+  email: edwinkun at gmail dot com
 
 theme: minima
 
@@ -15,8 +15,7 @@ minima:
 # Social links (shown in footer)
 minima:
   social_links:
-    - { platform: github, user_url: "https://github.com/yourusername" }
-    - { platform: twitter, user_url: "https://twitter.com/yourusername" }
+    - { platform: github, user_url: "https://github.com/edwin" }
 
 plugins:
   - jekyll-feed       # Generates /feed.xml RSS
